@@ -140,7 +140,7 @@ function init() {
     myObjLoader.load('volkswagen-touareg.obj', function(object) {
 
       var theObject = unitize(object, 20);
-    
+	  scene.add(theObject);
       scene.add(new THREE.BoxHelper(theObject));
 
 
